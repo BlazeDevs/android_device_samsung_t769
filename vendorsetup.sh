@@ -1,1 +1,3 @@
+add_lunch_combo cm_t769-user
+add_lunch_combo cm_t769-userdebug
 add_lunch_combo cm_t769-eng

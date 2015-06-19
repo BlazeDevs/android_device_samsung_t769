@@ -20,6 +20,11 @@ $(call inherit-product-if-exists, vendor/samsung/t769/t769-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/t769/overlay
 
+PRODUCT_PACKAGES += \
+    mkfs.f2fs \
+    fsck.f2fs \
+    fibmap.f2fs
+
 # Ramdisk
 PRODUCT_COPY_FILES += \
     device/samsung/t769/ramdisk/init.qcom.usb.rc:root/init.qcom.usb.rc \
